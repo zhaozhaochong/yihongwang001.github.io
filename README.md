@@ -13,10 +13,13 @@ Homepage about me
 
 ## Screenshot
 
+##Technologies used
+CSS, JavaScript, HTML, Bootstrap
+
 
 ## Instructions to build
-open the html in a web browser eg:Chrome, Firefox and etc.
-nom install
+A web browser eg:Chrome, Firefox and etc.
+npm install
 
 
 ## License & Copyright
