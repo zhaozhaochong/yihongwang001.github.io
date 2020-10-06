@@ -69,58 +69,58 @@
         </div>
         <div class="card" style="background-color: #2a3132" ;>
           <h2>PROFESSIONAL EXPERIENCE</h2>
-          <link rel="stylesheet" href="./tech.css" />
+          <link rel="stylesheet" href="tech.css" />
           <div class="row">
             <div class="column">
               <div class="card" style="color: #1979a9" ;>
                 <br />
                 <img
-                  src="./image/Deloitte.png"
+                  src="Deloitte.png"
                   alt="Deloitte Logo"
                   style="width: 100%"
                 />
                 <h4>Deloitte</h4>
                 <h5>IT Consultant Intern</h5>
                 <p>Fall 2019</p>
-                <a href="./workExperience.html">Learn More</a>
+                <a href="workExperience.html">Learn More</a>
               </div>
             </div>
             <div class="column">
               <div class="card" style="color: #1979a9">
                 <br />
                 <img
-                  src="./image/passageways.png"
+                  src="passageways.png"
                   alt="Passageways Logo"
                   style="width: 105%"
                 />
                 <h4>Passageways</h4>
                 <h5>Student Software Developer</h5>
                 <p>Spring 2019</p>
-                <a href="./workExperience.html">Learn More</a>
+                <a href="workExperience.html">Learn More</a>
               </div>
             </div>
             <div class="column">
               <div class="card" style="color: #1979a9">
                 <br />
-                <img src="./image/IDC.png" alt="IDC Logo" style="width: 100%" />
+                <img src="IDC.png" alt="IDC Logo" style="width: 100%" />
                 <h4>IDC</h4>
                 <h5>Marketing Analyst</h5>
                 <p>2017-2018</p>
                 <br />
-                <a href="./workExperience.html">Learn More</a>
+                <a href="workExperience.html">Learn More</a>
               </div>
             </div>
             <div class="column">
               <div class="card" style="color: #1979a9">
                 <img
-                  src="./image/GE.png"
+                  src="GE.png"
                   alt="GE Power Logo"
                   style="width: 35%"
                 />
                 <h4>GE</h4>
                 <h5>Marketing Analyst Intern</h5>
                 <p>2016-2017</p>
-                <a href="./workExperience.html">Learn More</a>
+                <a href="workExperience.html">Learn More</a>
               </div>
             </div>
           </div>
@@ -131,7 +131,7 @@
         <div class="card" style="background-color: black" ;>
           <h2>About Me</h2>
           <img
-            src="./image/Yihong3.jpg"
+            src="Yihong3.jpg"
             alt="personal picture"
             style="width: 80%"
           />
@@ -160,7 +160,7 @@
 
     <div class="footer" style="color: #edb879" ;>
       <button type="button" class="collapsible">
-        <link rel="stylesheet" href="./collapse.css" />
+        <link rel="stylesheet" href="collapse.css" />
         <h3>— My Thoughts —</h3>
       </button>
 
@@ -170,7 +170,7 @@
           and democracy on LinkedIn. Feel free to add me as a connection!
         </p>
       </div>
-      <script src="./collapse.js"></script>
+      <script src="collapse.js"></script>
     </div>
   </body>
 </html>
