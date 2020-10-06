@@ -2,75 +2,7 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <style>
-      * {
-        box-sizing: border-box;
-      }
-
-      /* Add a background color with some padding */
-      body {
-        font-family: Georgia;
-        padding: 100px;
-        background: #f1f1f1;
-      }
-
-      /* Header/*/
-      .header {
-        padding: 3px;
-        position: relative;
-        font-size: 30px;
-        text-align: center;
-        background: black;
-        color: white;
-        font-family: Georgia;
-      }
-
-      /* Create two unequal columns that floats next to each other */
-      /* Left column */
-      .leftcolumn {
-        float: left;
-        width: 75%;
-      }
-
-      /* Right column */
-      .rightcolumn {
-        float: left;
-        width: 25%;
-        padding-left: 20px;
-      }
-
-      /* Add a card effect for articles */
-      .card {
-        color: white;
-        padding: 20px;
-        margin-top: 20px;
-      }
-
-      /* Clear floats after the columns */
-      .row:after {
-        content: "";
-        display: table;
-        clear: both;
-      }
-
-      /* Footer */
-      .footer {
-        padding: 20px;
-        text-align: center;
-        background: black;
-        color: white;
-        margin-top: 20px;
-      }
-
-      /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-      @media screen and (max-width: 600px) {
-        .leftcolumn,
-        .rightcolumn {
-          width: 100%;
-          padding: 0;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="main.css" />
   </head>
 
   <body>
@@ -84,7 +16,7 @@
       <div class="leftcolumn">
         <div class="card" style="background-color: #2a3132" ;>
           <h2>TECHNICAL KNOWLEDGE</h2>
-          <link rel="stylesheet" href="./css/tech.css" />
+          <link rel="stylesheet" href="tech.css" />
           <div class="row">
             <div class="column">
               <div class="card" style="background-color: #34675c" ;>
@@ -137,7 +69,7 @@
         </div>
         <div class="card" style="background-color: #2a3132" ;>
           <h2>PROFESSIONAL EXPERIENCE</h2>
-          <link rel="stylesheet" href="./css/tech.css" />
+          <link rel="stylesheet" href="./tech.css" />
           <div class="row">
             <div class="column">
               <div class="card" style="color: #1979a9" ;>
@@ -228,7 +160,7 @@
 
     <div class="footer" style="color: #edb879" ;>
       <button type="button" class="collapsible">
-        <link rel="stylesheet" href="./css/collapse.css" />
+        <link rel="stylesheet" href="./collapse.css" />
         <h3>— My Thoughts —</h3>
       </button>
 
@@ -238,23 +170,7 @@
           and democracy on LinkedIn. Feel free to add me as a connection!
         </p>
       </div>
-
-      <script>
-        var coll = document.getElementsByClassName("collapsible");
-        var i;
-
-        for (i = 0; i < coll.length; i++) {
-          coll[i].addEventListener("click", function () {
-            this.classList.toggle("active");
-            var content = this.nextElementSibling;
-            if (content.style.display === "block") {
-              content.style.display = "none";
-            } else {
-              content.style.display = "block";
-            }
-          });
-        }
-      </script>
+      <script src="./collapse.js"></script>
     </div>
   </body>
 </html>
