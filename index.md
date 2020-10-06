@@ -1,1 +1,260 @@
-HI,there
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      /* Add a background color with some padding */
+      body {
+        font-family: Georgia;
+        padding: 100px;
+        background: #f1f1f1;
+      }
+
+      /* Header/*/
+      .header {
+        padding: 3px;
+        position: relative;
+        font-size: 30px;
+        text-align: center;
+        background: black;
+        color: white;
+        font-family: Georgia;
+      }
+
+      /* Create two unequal columns that floats next to each other */
+      /* Left column */
+      .leftcolumn {
+        float: left;
+        width: 75%;
+      }
+
+      /* Right column */
+      .rightcolumn {
+        float: left;
+        width: 25%;
+        padding-left: 20px;
+      }
+
+      /* Add a card effect for articles */
+      .card {
+        color: white;
+        padding: 20px;
+        margin-top: 20px;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Footer */
+      .footer {
+        padding: 20px;
+        text-align: center;
+        background: black;
+        color: white;
+        margin-top: 20px;
+      }
+
+      /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .leftcolumn,
+        .rightcolumn {
+          width: 100%;
+          padding: 0;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      Hey, I'm
+      <h3>—Yihong Wang—</h3>
+      <hr />
+    </div>
+
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="card" style="background-color: #2a3132" ;>
+          <h2>TECHNICAL KNOWLEDGE</h2>
+          <link rel="stylesheet" href="./css/tech.css" />
+          <div class="row">
+            <div class="column">
+              <div class="card" style="background-color: #34675c" ;>
+                <h3>Language</h3>
+                <p>Java</p>
+                <p>Python</p>
+                <p>HTML</p>
+                <p>JavaScript</p>
+                <p>CSS</p>
+                <p>MySQL</p>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="card" style="background-color: #90afc5" ;>
+                <h3>Framework</h3>
+                <p>React</p>
+                <p>Node.js</p>
+                <p>jQuery</p>
+                <p>Angular</p>
+                <p>Express</p>
+                <p>Spring Boot</p>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="card" style="background-color: #336b87" ;>
+                <h3>Models</h3>
+                <p>Bag of words</p>
+                <p>Word2Vec</p>
+                <p>Scikit</p>
+                <p>NLTK</p>
+                <p>LDA</p>
+                <p>Gensim</p>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="card" style="background-color: #763626" ;>
+                <h3>Tools</h3>
+                <p>IntelliJ</p>
+                <p>Apache</p>
+                <p>Git</p>
+                <p>Eclipse</p>
+                <p>Tomcat</p>
+                <p>Xcode</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="background-color: #2a3132" ;>
+          <h2>PROFESSIONAL EXPERIENCE</h2>
+          <link rel="stylesheet" href="./css/tech.css" />
+          <div class="row">
+            <div class="column">
+              <div class="card" style="color: #1979a9" ;>
+                <br />
+                <img
+                  src="./image/Deloitte.png"
+                  alt="Deloitte Logo"
+                  style="width: 100%"
+                />
+                <h4>Deloitte</h4>
+                <h5>IT Consultant Intern</h5>
+                <p>Fall 2019</p>
+                <a href="./workExperience.html">Learn More</a>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card" style="color: #1979a9">
+                <br />
+                <img
+                  src="./image/passageways.png"
+                  alt="Passageways Logo"
+                  style="width: 105%"
+                />
+                <h4>Passageways</h4>
+                <h5>Student Software Developer</h5>
+                <p>Spring 2019</p>
+                <a href="./workExperience.html">Learn More</a>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card" style="color: #1979a9">
+                <br />
+                <img src="./image/IDC.png" alt="IDC Logo" style="width: 100%" />
+                <h4>IDC</h4>
+                <h5>Marketing Analyst</h5>
+                <p>2017-2018</p>
+                <br />
+                <a href="./workExperience.html">Learn More</a>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card" style="color: #1979a9">
+                <img
+                  src="./image/GE.png"
+                  alt="GE Power Logo"
+                  style="width: 35%"
+                />
+                <h4>GE</h4>
+                <h5>Marketing Analyst Intern</h5>
+                <p>2016-2017</p>
+                <a href="./workExperience.html">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="rightcolumn">
+        <div class="card" style="background-color: black" ;>
+          <h2>About Me</h2>
+          <img
+            src="./image/Yihong3.jpg"
+            alt="personal picture"
+            style="width: 80%"
+          />
+          <p>
+            Master of Science in Computer Science from Northeastern
+            University-Silicon Valley
+          </p>
+          <p>Available for SDE internship/Co-op in 2021 Summer/Fall</p>
+          <p>Concertration: Software Engineering</p>
+        </div>
+
+        <div class="card" style="background-color: black" ;>
+          <h3>Contact Me</h3>
+          <p>Email: wang.yiho AT northeastern DOT edu</p>
+          <p>
+            <a href="https://github.com/yihongwang001">Visit My Github </a>
+          </p>
+          <p>
+            <a href="https://www.linkedin.com/in/yihong-wang-b26862122/"
+              >Visit My Linkedin
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer" style="color: #edb879" ;>
+      <button type="button" class="collapsible">
+        <link rel="stylesheet" href="./css/collapse.css" />
+        <h3>— My Thoughts —</h3>
+      </button>
+
+      <div class="content">
+        <p>
+          I share ideas and observations about the future of work, education,
+          and democracy on LinkedIn. Feel free to add me as a connection!
+        </p>
+      </div>
+
+      <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+      </script>
+    </div>
+  </body>
+</html>
